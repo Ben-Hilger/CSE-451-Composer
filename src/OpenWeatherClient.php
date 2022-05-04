@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace liererkt\OpenWeatherClient;
+namespace Hilgerbj\OpenWeatherClient;
 
 class OpenWeatherClient
 {
