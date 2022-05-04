@@ -37,7 +37,7 @@ class OpenWeatherClient
 
         $data = json_decode($response->getBody(), true);
 
-        return new \Liererkt\OpenWeatherClient\WeatherDay(
+        return new \Hilgerbj\OpenWeatherClient\WeatherDay(
             new \DateTime('now'),
             $location,
             'imperial',
